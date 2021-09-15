@@ -1,0 +1,141 @@
+
+body {
+    background-image: url(images/brushed.png);
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo {
+    font-size: 30px;
+    word-spacing: -6px;
+}
+span {
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+.my {
+    color: green;
+}
+
+.health {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: black;
+    padding: 10px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+
+.Description {
+    padding: 35px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight:lighter;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.Images {
+    display: flex;
+    padding: 10px;
+}
+.image1 {
+    background-image: url(images/appleQuinoa.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.image2 {
+    background-image: url(images/pastaSalad.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.image3 {
+    background-image: url(images/shrimpRice.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.fresh {
+    background-color: white;
+    width: 40%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Food {
+    background-color: rgb(139, 216, 31);
+    width: 60%;
+    margin: 0;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 19px;
+}
+h3 {
+    font-size:small;
+    height: 20px;
+    text-align: center;
+}
+
